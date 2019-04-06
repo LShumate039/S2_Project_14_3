@@ -36,7 +36,8 @@
       Returns true if tString represents the text of a white space text
       node and false if it doesn't
 */
-
+var nodeCount = 0;
+var elemCount = 0;
 
 
 
@@ -44,5 +45,5 @@
 
 
 function isWhiteSpaceNode(tString) {
-   return !(/[^\t\n\r ]/.test(tString));
+      return !(/[^\t\n\r ]/.test(tString));
 }
